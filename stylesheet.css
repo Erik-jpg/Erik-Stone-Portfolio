@@ -1,0 +1,10 @@
+.site-navigation-bar {
+    background-color: blue;
+    margin: 20px;
+    padding: 15px;
+}
+
+aside {
+    margin-right: 450px;
+    width: 350px; 
+}
