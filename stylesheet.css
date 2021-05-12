@@ -1,3 +1,11 @@
+* {
+    display: block;
+}
+
+#title {
+    display: none;
+}
+
 .site-navigation-bar {
     background-color: blue;
     margin: 20px;
@@ -8,9 +16,33 @@ aside {
     margin-right: 450px;
     width: 350px;
     position: sticky;
-    max-height: 450px;
+    /* max-height: 450px; */
+    color: whitesmoke;
 }
 
 body {
     display: inline-flex;
+    background: url("https://i.ibb.co/pXN5J2M/25017528-1058078844334415-7339940272383459328-n.jpg") no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: wheat;
+}
+
+#navigation-button{
+    display: inline-flex;
+    background-color: crimson;
+}
+
+.fa  {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-flexbox;
+      
+} 
+.fa :hover{
+    opacity: 0.5;
 }
