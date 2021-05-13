@@ -31,6 +31,9 @@ body {
 #navigation-button{
     display: inline-flex;
     background-color: crimson;
+    margin: 15px;
+    flex: flex;
+    justify-content: space-between;
 }
 
 .fa  {
