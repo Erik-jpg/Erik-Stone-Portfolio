@@ -40,8 +40,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    
-    
 }
 
 #CSS {
@@ -72,6 +70,12 @@ body {
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+#murray {
+  padding: 5px;
+  margin: 5px;
+}
+
 
 footer {
   position: fixed;
