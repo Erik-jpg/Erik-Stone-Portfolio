@@ -1,51 +1,108 @@
 * {
-    display: block;
+  display: block;
 }
 
 #title {
-    display: none;
+  display: none;
 }
 
 .site-navigation-bar {
-    background-color: blue;
-    margin: 20px;
-    padding: 15px;
+  background-color: blue;
+  margin: 20px;
+  padding: 15px;
 }
 
 aside {
-    margin-right: 450px;
-    width: 350px;
-    position: sticky;
-    /* max-height: 450px; */
-    color: whitesmoke;
+  margin-right: 450px;
+  width: 350px;
+  position: sticky;
+  /* max-height: 450px; */
+  color: whitesmoke;
 }
 
 body {
-    display: inline-flex;
-    background: url("https://i.ibb.co/pXN5J2M/25017528-1058078844334415-7339940272383459328-n.jpg") no-repeat top center;
-    background-attachment: fixed;
-    background-size: cover;
-    color: wheat;
+  display: inline-flex;
+  background: url("https://images.freeimages.com/images/large-previews/01a/technology-background-1632715.jpg")
+    no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: wheat;
 }
 
-#navigation-button{
-    display: inline-flex;
-    background-color: crimson;
-    margin: 15px;
-    flex: flex;
-    justify-content: space-between;
+#navigation-button {
+  display: inline-flex;
+  background-color: crimson;
+  margin: 15px;
+  flex: flex;
+  /* justify-content: space-between; */
+}
+.Projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    
 }
 
-.fa  {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    display: inline-flexbox;
-      
-} 
-.fa :hover{
-    opacity: 0.5;
+#CSS {
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 15%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex-grow: 1;
+  
+}
+
+#zodiac {
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 15%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#landing {
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 15%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  position: fixed;
+  max-height: auto;
+  left: 0%;
+  bottom: 0;
+  width: 100%;
+  background-color: wheat;
+  color: blue;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.fa {
+  padding: 5px;
+  flex-direction: row;
+  flex-flow: row nowrap;
+}
+
+#contact-me {
+  position: relative;
+}
+
+.social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 230px;
+  height: 42px;
+}
+.social li {
+  float: left;
+  display: block;
 }
