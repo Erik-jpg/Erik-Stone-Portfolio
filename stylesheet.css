@@ -1,5 +1,5 @@
 * {
-  display: block;
+  display: blocks;
 }
 
 #title {
@@ -42,25 +42,42 @@ body {
     flex-direction: row;
 }
 
+#applications {
+  display: grid;
+  flex: grid;
+  flex-wrap: row;
+  justify-content: space-between;
+
+}
+.showcase {
+  display: grid;
+}
+
+
 #CSS {
   top: 0;
-  left: 0;
+  left: 50px;
+  right: 50px;
   width: 25%;
   height: 15%;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.5);
   flex-grow: 1;
-  
+  position:relative;
+  text-align: center;
 }
 
 #zodiac {
   top: 0;
-  left: 0;
+  left: 25%;
   width: 25%;
   height: 15%;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  text-align:center;
 }
+
 
 #landing {
   top: 0;
@@ -69,6 +86,7 @@ body {
   height: 15%;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
 #murray {
