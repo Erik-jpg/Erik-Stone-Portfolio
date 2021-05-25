@@ -54,6 +54,7 @@ body {
 .showcase {
   display: grid;
   justify-content: space-between;
+  flex: row-fluid;
 }
 
 
@@ -62,7 +63,7 @@ body {
   left: 50px;
   right: 50px;
   width: 25%;
-  height: 15%;
+  /* height: 15%; */
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.5);
   flex-grow: 1;
