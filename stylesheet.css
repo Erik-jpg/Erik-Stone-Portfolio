@@ -16,7 +16,7 @@ aside {
   margin-right: 450px;
   width: 350px;
   position: sticky;
-  max-height: 560px;
+  max-height: auto;
   color: whitesmoke;
 }
 
@@ -34,7 +34,7 @@ body {
   background-color: crimson;
   margin: 15px;
   flex: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 .Projects{
     display: flex;
@@ -44,17 +44,30 @@ body {
 }
 
 #applications {
-  display: grid;
-  flex: grid;
+  /* display: grid; */
+  /* flex: grid; */
   flex-wrap: row;
   justify-content: space-between;
   margin: 5px;
 
 }
 .showcase {
-  display: grid;
+  /* display: grid; */
   justify-content: space-between;
   flex: row-fluid;
+}
+
+#box {
+  display: flex;
+}
+
+#boxTwo {
+height: inherit;  
+display: flex;
+}
+
+#boxThree {
+display: flex;
 }
 
 
@@ -63,21 +76,20 @@ body {
   left: 50px;
   right: 50px;
   width: 25%;
-  /* height: 15%; */
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.5);
+  height: 15%;
+  /* z-index: 10; */
+  flex-direction: row;
   flex-grow: 1;
   position:relative;
-  text-align: center;
+  /* text-align: center; */
 }
 
 #zodiac {
   top: 0;
-  left: 25%;
-  width: 25%;
-  height: 15%;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.5);
+  left: 25px;
+  width: 25px;
+  height: 15px;
+  /* z-index: 10; */
   position: relative;
   text-align:center;
   justify-content: space-between
@@ -89,8 +101,7 @@ body {
   left: 0;
   width: 25%;
   height: 15%;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* z-index: 10; */
   text-align: center;
   justify-content: space-between
 }
@@ -101,6 +112,10 @@ body {
   justify-content: space-between
 }
 
+.captions {
+  display:flex;
+
+}
 
 footer {
   position: fixed;
@@ -122,7 +137,12 @@ footer {
 }
 
 #contact-me {
-  position: relative;
+  /* position: relative; */
+}
+
+#email {
+  float: left;
+  position: static;
 }
 
 .social {
