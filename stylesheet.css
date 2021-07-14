@@ -79,6 +79,11 @@ body {
   flex-direction: column;
 }
 
+#project01 {
+  width:75%;
+  justify-content: space-between;
+}
+
 #CSS {
   /* top: 0; */
   /* left: 50px; */
