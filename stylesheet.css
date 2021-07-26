@@ -1,5 +1,5 @@
 * {
-  display: blocks;
+  display: block;
 }
 
 #title {
@@ -45,13 +45,12 @@ body {
 
 #applications {
   display: flex;
-  /* flex: grid; */
   flex-direction: column;
   justify-content: space-between;
   margin: 5px;
 }
 .showcase {
-  /* display: grid; */
+  display: grid;
   /* flex: row-fluid; */
 }
 
@@ -79,45 +78,29 @@ body {
   flex-direction: column;
 }
 
-#project01 {
-  width:75%;
-  left: 15%;
-  right: 15%;
+#relativeBox{
+height: 1891;
 }
 
+#project01{
+width: 55%;
+}
+
+
 #CSS {
-  /* top: 0; */
-  /* left: 50px; */
-  /* right: 50px; */
   width: 75%;
-  /* height: 15%; */
-  /* z-index: 10; */
-  /* flex-direction: row; */
-  /* flex-grow: 1; */
-  /* position: relative; */
-  /* text-align: center; */
 }
 
 #zodiac {
-  /* top: 0;
-  left: 25px;
-  width: 25px;
-  height: 15px; */
-  /* z-index: 10; */
-  /* position: relative; */
   text-align: center;
   justify-content: space-between;
 }
 
 #landing {
-  /* top: 0;
-  left: 0;
-  width: 25%;
-  height: 15%; */
-  /* z-index: 10; */
   text-align: center;
   justify-content: space-between;
 }
+
 #life-a,
 #murray {
   height: 75%;
@@ -130,6 +113,7 @@ body {
 
 .captions {
   display: flex;
+  text-align: center;
 }
 
 footer {
@@ -144,6 +128,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
 .fa {
   padding: 5px;
   flex-direction: row;
