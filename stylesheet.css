@@ -78,12 +78,13 @@ body {
   flex-direction: column;
 }
 
-#relativeBox{
-height: 1891;
+#teamProject{
+height: 85%;
+width: 85%;
 }
 
-#project01{
-width: 55%;
+#dishedUp{
+width: 100%;
 }
 
 
@@ -100,11 +101,18 @@ width: 55%;
   text-align: center;
   justify-content: space-between;
 }
-
-#life-a,
-#murray {
+#landing {
   height: 75%;
-  width:75%;
+  width: 75%;
+}
+
+#flowers {
+  width:100%;
+}
+
+#murray {
+  height: auto;
+  width:auto;
   padding: 5px;
   margin: 5px;
   justify-content: space-between;
