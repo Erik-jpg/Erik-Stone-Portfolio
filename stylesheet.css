@@ -142,15 +142,17 @@ footer {
   flex-direction: row;
   flex-flow: row nowrap;
   justify-content: space-between;
+  color:antiquewhite;
 }
 
 #contact-me {
-  /* position: relative; */
+  float: left;
+  left: 150px;
 }
 
 #email {
   float: left;
-  position: static;
+  position: relative;
 }
 
 .social {
@@ -160,11 +162,27 @@ footer {
   width: 230px;
   height: 42px;
   justify-content: space-between;
+  left: 150px;
+  
 }
-.social li {
+#linkedin {
   float: left;
   display: block;
+  position: relative;
+  right: 150px;
 }
+
+#facebook{
+  float: left;
+  display: block;
+  position: relative;
+}
+
+#faButtons{
+  float: left;
+  position: relative;
+}
+
 
 @media screen and  (max-width: 600px) {
   .inside {
