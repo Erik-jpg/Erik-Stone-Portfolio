@@ -41,6 +41,15 @@ body {
   justify-content: space-evenly;
   flex-direction: column;
   margin: 20px;
+  width: auto;
+}
+
+.Projects01 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 20px;
+  width: 60%;
 }
 
 #applications {
@@ -51,13 +60,14 @@ body {
 }
 .showcase {
   display: grid;
-  /* flex: row-fluid; */
+  flex: row-fluid;
 }
 
 .box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 85%;
 }
 
 .inside {
@@ -87,9 +97,12 @@ width: 85%;
 width: 100%;
 }
 
-
 #CSS {
-  width: 75%;
+  width: 95%;
+}
+
+#bill {
+  width: 95%;
 }
 
 #zodiac {
@@ -106,17 +119,12 @@ width: 100%;
   width: 75%;
 }
 
-#flowers {
-  width:100%;
+#relativeBox {
+  width:auto;
 }
 
-#murray {
-  height: auto;
-  width:auto;
-  padding: 5px;
-  margin: 5px;
-  justify-content: space-between;
-  
+#purpleBanner{
+  width: 85%;
 }
 
 .captions {
