@@ -134,7 +134,7 @@ width: 100%;
   text-align: center;
 }
 
-footer {
+/* footer {
   position: fixed;
   max-height: auto;
   left: 0%;
@@ -145,7 +145,7 @@ footer {
   text-align: left;
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .fa {
   padding: 5px;
