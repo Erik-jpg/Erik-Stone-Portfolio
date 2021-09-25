@@ -7,7 +7,6 @@
 }
 
 .site-navigation-bar {
-  /* background-color: blue; */
   margin: 20px;
   padding: 15px;
 }
@@ -26,12 +25,36 @@ body {
     no-repeat top center;
   background-attachment: fixed;
   background-size: cover;
-  color: wheat;
+  color:darkkhaki
 }
 
 #navigation-button {
   display: inline-flex;
-  background-color: crimson;
+  margin: 15px;
+  flex: flex;
+  justify-content: space-between;
+  border-radius: 50%;
+  color:cadetblue;
+}
+
+#Contact {
+  color:cadetblue;
+  margin: 15px;
+  flex: flex;
+  justify-content: space-between;
+  border-radius: 50%;
+}
+
+#Talents {
+  color:cadetblue;
+  margin: 15px;
+  flex: flex;
+  justify-content: space-between;
+  border-radius: 50%;
+}
+
+#resume {
+  color:cadetblue;  
   margin: 15px;
   flex: flex;
   justify-content: space-between;
@@ -76,7 +99,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
 }
 
 #boxTwo {
@@ -116,6 +138,7 @@ width: 100%;
   text-align: center;
   justify-content: space-between;
 }
+
 #landing {
   height: 75%;
   width: 75%;
@@ -134,25 +157,8 @@ width: 100%;
   text-align: center;
 }
 
-/* footer {
-  position: fixed;
-  max-height: auto;
-  left: 0%;
-  bottom: 0;
-  width: 100%;
-  background-color: wheat;
-  color: blue;
-  text-align: left;
-  display: flex;
-  justify-content: space-between;
-} */
-
-.fa {
-  padding: 5px;
-  flex-direction: row;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  color:antiquewhite;
+#repositories {
+  width: 64%;
 }
 
 #contact-me {
@@ -165,32 +171,15 @@ width: 100%;
   position: relative;
 }
 
-.social {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  width: 230px;
-  height: 42px;
-  justify-content: space-between;
-  left: 150px;
-  
-}
-#linkedin {
-  float: left;
-  display: block;
-  position: relative;
-  right: 150px;
+.change-color {
+  font-family: FontAwesome;
+  color:cadetblue;
 }
 
-#facebook{
-  float: left;
-  display: block;
-  position: relative;
-}
-
-#faButtons{
+.social-media{
   float: left;
   position: relative;
+  color:cadetblue;
 }
 
 
