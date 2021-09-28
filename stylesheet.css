@@ -17,6 +17,7 @@ aside {
   position: sticky;
   max-height: auto;
   color: whitesmoke;
+  font-size: 18px;
 }
 
 body {
@@ -25,7 +26,8 @@ body {
     no-repeat top center;
   background-attachment: fixed;
   background-size: cover;
-  color:darkkhaki
+  color:whitesmoke;
+  font-size: 18px;
 }
 
 #navigation-button {
@@ -37,7 +39,7 @@ body {
   color:cadetblue;
 }
 
-#Contact {
+#Contact-link {
   color:cadetblue;
   margin: 15px;
   flex: flex;
@@ -45,7 +47,7 @@ body {
   border-radius: 50%;
 }
 
-#Talents {
+#Talents-link {
   color:cadetblue;
   margin: 15px;
   flex: flex;
